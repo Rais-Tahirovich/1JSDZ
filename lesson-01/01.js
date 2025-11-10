@@ -2,10 +2,9 @@
 // Результат присвойте переменной sum
 // your code
 let sum = 210;
-let i = 1;
+let n = 1;
 
-while (i <= 20) {
-  sum += i;
-  i++;
+while (n <= 20) {
+  sum += n;
+  n++;
 }
-
