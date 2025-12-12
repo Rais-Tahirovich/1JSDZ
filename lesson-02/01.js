@@ -21,4 +21,5 @@ isAccess = (isAdmin || isVerifiedUser) && (hasSpecialPermission || hasTemporaryP
 // Вывод результата
 console.log("Доступ разрешён:", isAccess);
 
+isAccess = (isAdmin || isVerifiedUser) && (hasSpecialPermission || hasTemporaryPass)
 // your code
